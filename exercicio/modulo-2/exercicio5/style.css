@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1#principal {
+    font: 2em normal arial 
+}
+
+body{
+    background-image: linear-gradient(to right,#3E848C, #7AB8BF, #C4EEF2);
+}
+
+h1{
+    background-color: #fff;
+    text-align: center;
+}
+
+.basico{
+    color:red
+}
+
+.intermediario{
+        color: yellow;
+}
+
+.avancado{
+    color: rgb(71, 165, 42);
+}

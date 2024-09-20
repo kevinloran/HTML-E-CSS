@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir em outros despositivos.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-pequena.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="imagens/imagem-media.png" type="image/png">
+        <img src="imagens/imagem-Grande.png" alt="imagem grande">
+    </picture>
+    <h1>reproduzir audio</h1>
+    <audio controls preload="metadata" src="midia/bolsonaro-quer-comer-meu-c_120246.mp3">
+     <source src="midia/bolsonaro-quer-comer-meu-c_120246.mp3" type="audio/mpeg">
+     <source src="midia/bolsonaro-quer-comer-meu-c_120246.ogg" type="audio/ogg">  
+     <source src="midia/bolsonaro-quer-comer-meu-c_120246.wav" type="audio/wav">
+    </audio>
+    <p>infelizmente seu navegador não consegue reproduzir este audio.
+        <a href="midia/bolsonaro-quer-comer-meu-c_120246.mp3">baixar</a>
+    </p>
+</body>
+</html>

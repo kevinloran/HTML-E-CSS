@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+    background-color:#82D9A0;
+}
+
+header{
+    background-image: linear-gradient(#63CF93,#4ABF7E,#4EA173,#266C45);
+    text-align: center;
+    font: white 2em ;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 6px 5px 7px black;
+}
+
+nav > a{
+    text-align: left;
+    
+}
+
+header > h1{
+    font: arial, sans serif  2em  white;
+}
+
+main{
+    background-color: white;
+    text-align: justify;
+    margin: auto;
+    margin: 0px 340px ;
+    box-shadow: 1px 2px 10px black;
+    
+}
+
+div#imagem3{
+    text-align: center;
+}
+

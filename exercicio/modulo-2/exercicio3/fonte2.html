@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando fontes baixadas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('FONTES/Amor') format('truetype'), url('love larry ttf.ttf') format('truetype');
+        }
+
+        /*tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        -truetype-aat (Apple Advanced Typography)
+        - svg*/
+
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+            text-align: justify;
+        }
+
+        h1{
+            font-family: 'love';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>fonte baixada</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati consectetur, quam nisi cumque nesciunt, voluptas ex ratione saepe qui quod corrupti veritatis, eveniet tenetur quia quae! Aspernatur, assumenda praesentium.</p>
+</body>
+</html>
